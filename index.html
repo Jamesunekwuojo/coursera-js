@@ -10,8 +10,8 @@
 <body>
     
     <div class="container">
-        <p id="Istparagraph">Hello Friends, I'm James' Unekwuojo Emmanuel </p>
-        <button>View my Works</button>
+        <p id="Istparagraph">Hello Friends, <span style="color: palevioletred;">I'm James' Unekwuojo Emmanuel </span> </p>
+        <button>View my Works <span><ion-icon name="arrow-forward-outline"></ion-icon></span></button>
         <div class="bubbles">
             <span style="--i:11;"></span>
             <span style="--i:12;"></span>
@@ -57,14 +57,32 @@
             
         </div>
     </div>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Blog</li>
-        </ul>
-    </nav>
+    <div class="navdiv">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                
+
+            </ul>
+        </nav>
+        
+        
+    </div>
+    <div id="About">
+        <header>ABOUT</header>
+        <div class="imagediv">
+            <img width="25%" src="./photo_2023-08-06_16-48-10.jpg" alt="">
+
+        </div>
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
 
 </body>
 </html>

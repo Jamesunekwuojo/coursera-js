@@ -6,7 +6,6 @@
 }
 ul{
     list-style-type: none;
-    background-color:white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -14,6 +13,7 @@ ul{
     padding: 5px;
 
 }
+
 button{
     font-size: large;
     border-radius: 10px;
@@ -31,7 +31,7 @@ button{
 }
 body{
     min-height: 100%;
-    background-color: #0c192c;
+    background-color: #22395c;
 }
 .container{
     position: relative;
@@ -41,9 +41,33 @@ body{
 
 
 }
+a{
+    color:white;
+    text-decoration: none;
+}
+/*.navdiv{
+height: 40vh;
+}*/
+#About{
+    background-color: whitesmoke;
+    border-radius:5px ;
+    
+}
+header{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+img {
+    border-radius: 10px;
+}
+.imagediv{
+    margin: 10px 10px 10px  10px;
+}
 .bubbles{
     position: relative;
     display: flex;
+
 }
 .bubbles span {
     position: relative;
