@@ -55,3 +55,24 @@ function listOfstudents(one, two, three){
 
 }
 listOfstudents("Abba", "Abba", "James");
+
+// method in javascript
+var car= {}; //an  object
+car.key="Iron";// a property of the object
+car.Turnkey = function (){// a method
+    console.log("The engine is running")
+}
+
+car.Lighton = function (){
+    console.log("The lights are on");
+}
+console.log(car);
+car.Turnkey();
+car.Lighton();
+
+//var test = typeof(12)
+var test = typeof(function showStrings(){console.log("hi")});
+console.log(test)
+
+
+
