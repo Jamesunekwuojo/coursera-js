@@ -98,4 +98,5 @@ class Rat extends Cat {
 var result = new Cat();
 console.log (result.noise);
 
-let {PI} = math;
+let {PI} = Math;
+PI;
